@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FBFB"
+    tools:context=".Lifeskills">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="301dp"
+        android:layout_height="296dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="69dp"
+        android:text="Our Life skills course offer numerous benefits that enhance personal and professional growth. We help in developing essential abilities such as communication,problem-solving and critical thinking, individuals can navigate daily challenges more effectively."
+        android:textColor="#2B3EA6"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Firsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="679dp"
+        android:backgroundTint="#24716A"
+        android:text="First Aid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LandSca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="678dp"
+        android:backgroundTint="#24716A"
+        android:text="Landscaping"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Sew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="679dp"
+        android:backgroundTint="#24716A"
+        android:text="Sewing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSixWeekCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="631dp"
+        android:backgroundTint="#0B7066"
+        android:text="Six-Week Courses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="209dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="418dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/life_skills" />
+</androidx.constraintlayout.widget.ConstraintLayout>

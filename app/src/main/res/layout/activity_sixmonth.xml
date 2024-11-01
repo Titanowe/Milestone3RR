@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#097369"
+    tools:context=".SixmonthActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="611dp"
+        android:text="Six-Month Courses"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnSixWeekCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="667dp"
+        android:backgroundTint="#0B7066"
+        android:text="Six-Week Courses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Landscaping"
+        android:layout_width="381dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="474dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lands" />
+
+    <ImageButton
+        android:id="@+id/First"
+        android:layout_width="390dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="307dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aid" />
+
+    <ImageButton
+        android:id="@+id/Life"
+        android:layout_width="389dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="442dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="162dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lifesk" />
+
+    <ImageButton
+        android:id="@+id/SewingB"
+        android:layout_width="394dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="586dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sw" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="515dp"
+        android:gravity="center"
+        android:text="Landscaping"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Aid"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="324dp"
+        android:gravity="center"
+        android:text="First Aid"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Skil"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="486dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="205dp"
+        android:gravity="center"
+        android:text="Life skill's"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wing"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="616dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="75dp"
+        android:gravity="center"
+        android:text="sewing"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

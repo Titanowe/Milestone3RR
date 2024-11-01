@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F8F8"
+    tools:context=".Sewing">
+
+    <Button
+        android:id="@+id/LandSca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="678dp"
+        android:backgroundTint="#24716A"
+        android:text="Landscaping"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Firsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="679dp"
+        android:backgroundTint="#24716A"
+        android:text="First Aid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/lifeski"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="678dp"
+        android:backgroundTint="#24716A"
+        android:text="Life Skill's"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="351dp"
+        android:layout_height="283dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="382dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="66dp"
+        android:text="Sewing  offers a wide range of benefits, It equips people with skills that can enhance creativity and self-expression, allowing them to design and produce custom clothing and accessories. This hands-on experience can also boost confidence, as mastering new skill leads to a sense of achievement. Moreover, sewing training can foster community, providing opportunities for social interaction and collaboration with fellow learners. Ultimately, investing in sewing training not only builds a practical skill but also encourages personal growth and creativity.
+"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="302dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="440dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sw" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="589dp"
+        android:text="Sewing"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSixWeekCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="631dp"
+        android:backgroundTint="#0B7066"
+        android:text="Six-Week Courses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
