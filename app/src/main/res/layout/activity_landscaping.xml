@@ -8,6 +8,22 @@
     android:background="#F3F4F4"
     tools:context=".landscaping">
 
+    <Button
+        android:id="@+id/Join_Us_Button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="#0B7066"
+        android:text="Join us"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <ImageView
         android:id="@+id/imageView8"
@@ -60,7 +76,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/Sew"
+        android:id="@+id/Sewing_Button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="157dp"
@@ -75,7 +91,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/lifeski"
+        android:id="@+id/Life_skills_Button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
@@ -90,7 +106,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/FirstaidButton"
+        android:id="@+id/First_Aid_Button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="284dp"
@@ -105,7 +121,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnSixWeekCourses"
+        android:id="@+id/btnSixWeek_Courses3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"

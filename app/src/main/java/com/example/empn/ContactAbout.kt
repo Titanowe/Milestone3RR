@@ -7,17 +7,18 @@ import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
-lateinit var Fees:Button
-lateinit var Become:Button
+
+lateinit var Join_Us_Button:Button
 class ContactAbout : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_contact_about)
-        Become=findViewById(R.id.Become)
-        Fees=findViewById(R.id.Fees)
-        Become.setOnClickListener { startActivity(Intent(this,signup::class.java)) }
-        Fees.setOnClickListener { startActivity(Intent(this,CalculatActivityt::class.java)) }
+
+        Join_Us_Button=findViewById(R.id.Join_Us_Button)
+
+
+        Join_Us_Button.setOnClickListener { startActivity(Intent(this,signup::class.java)) }
     }
 }

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F7FAF9"
-    tools:context=".Contact_About">
+    tools:context=".ContactAbout">
 
     <ImageView
         android:id="@+id/imageView"
@@ -25,7 +25,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/Become"
+        android:id="@+id/Join_Us_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"

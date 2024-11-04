@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/btnSixMonthCourses"
+        android:id="@+id/btnSixMonth_Courses1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="651dp"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnSixWeekCourses"
+        android:id="@+id/btnSixWeek_Courses1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="594dp"
@@ -68,7 +68,7 @@ can provide more marketable skills.  "
         tools:ignore="TextSizeCheck" />
 
     <Button
-        android:id="@+id/ContactButton"
+        android:id="@+id/Contact_Button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="151dp"

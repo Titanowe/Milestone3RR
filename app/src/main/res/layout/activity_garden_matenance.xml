@@ -9,7 +9,23 @@
     tools:context=".Garden_Matenance">
 
     <Button
-        android:id="@+id/cookingButton"
+        android:id="@+id/Join_Us_Button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="#0B7066"
+        android:text="Join us"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/cooking_Button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -24,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnSixMonthCourses"
+        android:id="@+id/btnSixMonthCourses2"
         android:layout_width="151dp"
         android:layout_height="53dp"
         android:layout_marginStart="264dp"
@@ -39,7 +55,7 @@
 
 
     <Button
-        android:id="@+id/child"
+        android:id="@+id/child_Minding_Button2"
         android:layout_width="96dp"
         android:layout_height="57dp"
         android:layout_marginStart="122dp"
