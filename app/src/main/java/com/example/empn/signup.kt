@@ -1,5 +1,6 @@
 package com.example.empn
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -8,8 +9,10 @@ import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 lateinit var Payment_Button:Button
+lateinit var NameTextView:TextView
 
 class signup : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -21,10 +24,11 @@ class signup : AppCompatActivity() {
         val emailEditText = findViewById<EditText>(R.id.emailEditText)
         val signupButton = findViewById<Button>(R.id.signupButton)
         val messageTextView = findViewById<TextView>(R.id.messageTextView)
+        NameTextView=findViewById(R.id.NameTextView)
         Payment_Button=findViewById(R.id.Payment_Button)
 
         signupButton.setOnClickListener {
-            messageTextView.text="$nameEditText"
+            NameTextView.text="$nameEditText"
             messageTextView.text="Thank you for joining the Nation"
         }
 
