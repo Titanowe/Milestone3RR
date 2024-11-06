@@ -28,8 +28,8 @@ class signup : AppCompatActivity() {
         Payment_Button=findViewById(R.id.Payment_Button)
 
         signupButton.setOnClickListener {
-            NameTextView.text="$nameEditText"
-            messageTextView.text="Thank you for joining the Nation"
+            NameTextView.text=""
+            messageTextView.text="T$nameEditText hank you for joining the Nation"
         }
 
         Payment_Button.setOnClickListener {
