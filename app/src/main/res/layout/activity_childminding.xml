@@ -107,6 +107,8 @@
         android:textColor="#2B3EA6"
         android:layout_marginBottom="626dp"
         android:text="Child Minding"
+        android:textSize="19dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
