@@ -29,7 +29,7 @@ class signup : AppCompatActivity() {
 
         signupButton.setOnClickListener {
             NameTextView.text=""
-            messageTextView.text="T$nameEditText hank you for joining the Nation"
+            messageTextView.text="Thank you for joining the Nation"
         }
 
         Payment_Button.setOnClickListener {
