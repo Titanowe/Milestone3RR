@@ -58,10 +58,10 @@
         android:id="@+id/Landscaping_checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="253dp"
-        android:layout_marginTop="453dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginBottom="230dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="134dp"
         android:text="Landscaping"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,8 +93,10 @@
         android:text="Sewing "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <CheckBox
         android:id="@+id/Cooking_checkBox"
@@ -126,12 +128,12 @@
 
     <CheckBox
         android:id="@+id/Garden_Maintenance_checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="549dp"
-        android:layout_marginEnd="206dp"
-        android:layout_marginBottom="134dp"
+        android:layout_width="154dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="228dp"
         android:text="Garden Maintenance"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
